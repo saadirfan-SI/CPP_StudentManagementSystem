@@ -18,6 +18,7 @@ GraduateStudent: A derived class from Student that represents a graduate student
 StudentDatabase: A class that manages the collection of students. It uses a vector to store pointers to Student objects. It provides methods to add a student to the database, display all students, and update student information.
 
 Usage: There are many options, one of them is listed below.
+
 Add a student:
 
 To add an undergraduate student: Create an UndergraduateStudent object by providing the student's name, age, and year. Then, call the addStudent() method of the StudentDatabase class, passing the UndergraduateStudent object as a parameter.
